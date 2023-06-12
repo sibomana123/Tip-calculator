@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(35, 35, 133);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container {
+  /* box-sizing: border-box; */
+  width: 350px;
+  background-color: white;
+  height: 480px;
+  border-radius: 6px;
+
+}
+
+h2 {
+  color: red;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+h1{
+  padding: 0;
+  margin: 0;
+  background-color: rgb(250, 146, 10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
+  height: 64px;
+  color: WHITE;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.main {
+  border-bottom: 3px solid violet;
+  margin: .5rem 1rem;
+}
+
+.bill {
+  border-bottom: 3px solid violet ;
+  margin: 2rem 2rem .4rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service {
+  border-bottom: 3px solid violet ;
+  margin: .4rem 2rem ;
+  display: flex;
+  justify-content: space-between;
+}
+
+label, input, select {
+  margin-bottom: .6rem;
+}
+
+input {
+  padding: 9px;
+  border-radius: 5px;
+  justify-content: space-between;
+  display: flex;
+ align-items: end;
+}
+
+input:focus{
+  outline: hidden;
+}
+
+
+select {
+  padding: 9px;
+  border-radius: 5px;
+  justify-content: space-between;
+  display: flex;
+ align-items: end;
+}
+
+.button {
+  margin: .4rem 2rem;
+  background-color: violet;
+  padding: 6px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.button .calculate {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+
+}
+
+
+p {
+  margin: 1.3rem;
+  background-color: gray;
+  padding: 12px;
+  border-radius: 6px;
+
+}
+
+.tip {
+  color: black;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.total {
+  color: red;
+  font-size: 27px;
+  font-weight: bold;
+}
